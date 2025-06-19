@@ -24,7 +24,7 @@ class MenuHandlers:
             print("\n0. Back to Main Menu")
             print("-" * 40)
             
-            choice = input("Enter your choice: ").strip()
+            choice = input("Enter your choice number and press enter: ").strip()
             
             if choice == '0':
                 break
@@ -179,7 +179,7 @@ class MenuHandlers:
             print("\n0. Back to Main Menu")
             print("-" * 40)
             
-            choice = input("Enter your choice: ").strip()
+            choice = input("Enter your choice number and press enter: ").strip()
             
             if choice == '0':
                 break
@@ -366,7 +366,7 @@ class MenuHandlers:
             print("\n0. Back to Main Menu")
             print("-" * 40)
             
-            choice = input("Enter your choice: ").strip()
+            choice = input("Enter your choice number and press enter: ").strip()
             
             if choice == '0':
                 break

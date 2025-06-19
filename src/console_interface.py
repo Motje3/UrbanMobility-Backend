@@ -40,7 +40,7 @@ class ConsoleInterface:
         while self.running:
             try:
                 self.show_main_menu()
-                choice = input("\nEnter your choice: ").strip()
+                choice = input("\nEnter your choice number and press enter: ").strip()
                 self.handle_main_menu_choice(choice)
             except KeyboardInterrupt:
                 print("\n\nExiting application...")
